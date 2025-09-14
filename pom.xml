@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.t0bx</groupId>
-    <artifactId>eindino-bedwars</artifactId>
+    <artifactId>bedwars</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>eindino-bedwars</name>
+    <name>bedwars</name>
 
     <properties>
         <java.version>24</java.version>

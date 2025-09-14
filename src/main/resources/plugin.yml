@@ -1,4 +1,4 @@
-name: eindino-bedwars
+name: bedwars
 version: '1.0.0'
 main: de.t0bx.eindino.BedWarsPlugin
 api-version: '1.21'

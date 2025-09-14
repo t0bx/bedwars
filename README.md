@@ -1,9 +1,9 @@
-# eindino-bedwars
+# Bedwars
 
 > Heads up: this is an older project I wrote a while ago. It was originally built for the einDino infrastructure. If you run it elsewhere, expect to tweak configs, dependencies, and maybe some code.
 
 ### What this is
-This is my BedWars plugin for PaperMC. It includes lobby mechanics, team setup, map voting, a shop, scoreboards, a spectator mode, a Top‑5 display, and a MySQL‑backed stats system (via my `ServerAPI`).
+This is my BedWars plugin for Paper. It includes lobby mechanics, team setup, map voting, a shop, scoreboards, a spectator mode, a Top‑5 display, and a MySQL‑backend stats system (via my `ServerAPI`).
 
 - Main class: `de.t0bx.eindino.BedWarsPlugin`
 - Paper API: `1.21.4`
@@ -77,9 +77,9 @@ mvn clean package
 ```
 
 Artifacts in `target/`:
-- `eindino-bedwars-1.0.0.jar` (base)
-- `eindino-bedwars-1.0.0-shaded.jar` (recommended for deployment)
-- `eindino-bedwars-1.0.0-obf.jar` (obfuscated, optional)
+- `bedwars-1.0.0.jar` (base)
+- `bedwars-1.0.0-shaded.jar` (recommended for deployment)
+- `bedwars-1.0.0-obf.jar` (obfuscated, optional)
 
 > If your production server isn’t on Java 24, adjust the `maven-compiler-plugin` (`source`/`target`) in `pom.xml` (e.g. 21) and rebuild.
 
