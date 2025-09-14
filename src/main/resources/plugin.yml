@@ -1,0 +1,23 @@
+name: eindino-bedwars
+version: '1.0.0'
+main: de.t0bx.eindino.BedWarsPlugin
+api-version: '1.21'
+depend:
+  - ServerAPI
+  - CloudNet-Bridge
+  - Multiverse-Core
+  - SentienceEntity
+  - LuckPerms
+authors: [ t0bx ]
+commands:
+  setspawn:
+    permission: bedwars.admin
+  map:
+    permission: bedwars.admin
+  troll:
+    permission: bedwars.admin
+  start:
+    permission: bedwars.vip
+  forcemap:
+    permission: bedwars.vip
+  stats:
